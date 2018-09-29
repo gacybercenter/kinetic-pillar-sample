@@ -1,6 +1,6 @@
 #!yaml|gpg
 
-master_config:  
+master-config:  
   default_top: |
     default_top: base
   
