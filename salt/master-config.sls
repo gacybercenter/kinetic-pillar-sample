@@ -17,7 +17,7 @@ master-config:
   gitfs_pillar: |
     ext_pillar:
       - git:
-        - master https://github.com/georgiacyber/kinetic-sample-pillar.git:
+        - master https://github.com/georgiacyber/kinetic-pillar-sample.git:
           - env: base
     ext_pillar_first: true
     pillar_gitfs_ssl_verify: True
