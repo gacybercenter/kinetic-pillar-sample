@@ -1,6 +1,6 @@
 #!yaml|gpg
 
-default_top:|
+default_top: |
   default_top: base
 
 file_roots:|
