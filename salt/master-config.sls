@@ -14,13 +14,13 @@ master-config:
       - git
       - roots
   
-  ext_pillar: |
+  gitfs_pillar: |
     ext_pillar:
       - git:
         - master https://github.com/georgiacyber/kinetic-sample-pillar.git:
           - env: base
-  ext_pillar_first: true
-  pillar_gitfs_ssl_verify: True
+    ext_pillar_first: true
+    pillar_gitfs_ssl_verify: True
   
   gitfs_remotes: |
     gitfs_remotes:
