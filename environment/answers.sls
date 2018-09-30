@@ -1,5 +1,11 @@
 #!yaml|gpg
 
+## Specify your upstream gitfs file remotes
+gitfs_remotes:
+  - https://github.com/georgiacyber/kinetic.git:
+      branch: master
+
+
 ## Specify your timezone
 ## https://docs.saltstack.com/en/latest/ref/states/all/salt.states.timezone.html
 timezone: America/New_York
