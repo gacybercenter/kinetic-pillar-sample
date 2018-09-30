@@ -15,7 +15,7 @@ hosts:
       - 34:34:45:56:67:78
     interface: auto
     proxy: " "
-    root-password-crypted: $6$sSXsfvsKhwy$RrINorhH4lNeNdNbi/vHqCAApM8ID9Lhvmzs6OQMO4791igXZIrhWg6Kyi7XPRGhIZOgGUdCx4pra$    zone: US/Eastern
+    root-password-crypted: $6$sSXsfvsKhwy$RrINorhH4lNeNdNbi/vHqCAApM8ID9Lhvmzs6OQMO4791igXZIrhWg6Kyi7XPRGhIZOgGUdCx4prarhaV62id0
     zone: US/Eastern
     ntp-server: 0.us.pool.ntp.org
     disk: /dev/sda
