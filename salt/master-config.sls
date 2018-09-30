@@ -32,7 +32,7 @@ master-config:
       - base
   
   gitfs_update_interval: |
-    gitfs_update_interval: 10
+    gitfs_update_interval: 3
   
   hash_type: |
     hash_type: sha512
