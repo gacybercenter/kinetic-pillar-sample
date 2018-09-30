@@ -1,5 +1,8 @@
 #!yaml|gpg
 
+gitfs_remotes:
+  https://github.com/georgiacyber/kinetic.git
+
 ## Specify your timezone
 ## https://docs.saltstack.com/en/latest/ref/states/all/salt.states.timezone.html
 timezone: America/New_York
