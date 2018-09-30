@@ -9,4 +9,5 @@ timezone: America/New_York
 ## https://docs.saltstack.com/en/latest/ref/states/all/salt.states.ssh_auth.html
 
 authorized_keys:
-  - AAAAC3NzaC1lZDI1NTE5AAAAIIKw+cBx9BBKcoXKLxMLVoGCD7znZqBjnMkaIipAikQJ: ed25519
+  - AAAAC3NzaC1lZDI1NTE5AAAAIIKw+cBx9BBKcoXKLxMLVoGCD7znZqBjnMkaIipAikQJ
+    - encoding: ed25519
