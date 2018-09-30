@@ -10,4 +10,4 @@ timezone: America/New_York
 
 authorized_keys:
   AAAAC3NzaC1lZDI1NTE5AAAAIIKw+cBx9BBKcoXKLxMLVoGCD7znZqBjnMkaIipAikQJ:
-    - encoding: ed25519
+    encoding: ed25519
