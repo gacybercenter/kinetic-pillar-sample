@@ -18,8 +18,8 @@ gitfs_remotes: |
     - base
 
 gitfs_pillar_configuration:
-  https://github.com/georgiacyber/kinetic-pillar-sample.git:
-    - branch: master
+  url: https://github.com/georgiacyber/kinetic-pillar-sample.git
+  branch: master
 
 ## Specify your timezone
 ## https://docs.saltstack.com/en/latest/ref/states/all/salt.states.timezone.html
