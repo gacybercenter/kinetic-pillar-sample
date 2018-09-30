@@ -6,7 +6,6 @@ hosts:
     interface: auto
     proxy: None
     root_password_crypted: $6$sSXsfvsKhwy$RrINorhH4lNeNdNbi/vHqCAApM8ID9Lhvmzs6OQMO4791igXZIrhWg6Kyi7XPRGhIZOgGUdCx4prarhaV62id0
-    zone: US/Eastern
     ntp_server: 0.us.pool.ntp.org
     disk: /dev/sda
   controller:
@@ -16,6 +15,5 @@ hosts:
     interface: auto
     proxy: None
     root_password_crypted: $6$sSXsfvsKhwy$RrINorhH4lNeNdNbi/vHqCAApM8ID9Lhvmzs6OQMO4791igXZIrhWg6Kyi7XPRGhIZOgGUdCx4prarhaV62id0
-    zone: US/Eastern
     ntp_server: 0.us.pool.ntp.org
     disk: /dev/sda
