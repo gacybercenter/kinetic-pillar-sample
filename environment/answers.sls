@@ -18,7 +18,7 @@ gitfs_remotes: |
     - base
 
 gitfs_pillar_configuration:
-  - https://github.com/georgiacyber/kinetic-pillar-sample.git:
+  https://github.com/georgiacyber/kinetic-pillar-sample.git:
     - branch: master
 
 ## Specify your timezone
