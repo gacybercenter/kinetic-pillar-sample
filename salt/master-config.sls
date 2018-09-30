@@ -24,7 +24,7 @@ master-config:
   
   gitfs_remotes: |
     gitfs_remotes:
-     - https://github.com/georgiacyber/kinetic.git:: 
+     - https://github.com/georgiacyber/kinetic.git:
         - saltenv:
           - base:
             - ref: master
