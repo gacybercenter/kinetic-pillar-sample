@@ -1,21 +1,8 @@
 #!yaml|gpg
 
-gitfs_pillar: |
-  ext_pillar:
-    - git:
-      - master https://github.com/georgiacyber/kinetic-pillar-sample.git:
-        - env: base
-  ext_pillar_first: true
-  pillar_gitfs_ssl_verify: True
-
-gitfs_remotes: |
-  gitfs_remotes:
-   - https://github.com/georgiacyber/kinetic.git:
-      - saltenv:
-        - base:
-          - ref: master
-  gitfs_saltenv_whitelist:
-    - base
+gitfs_remote_configuration:
+  url: https://github.com/georgiacyber/kinetic.git
+  branch: master
 
 gitfs_pillar_configuration:
   url: https://github.com/georgiacyber/kinetic-pillar-sample.git
