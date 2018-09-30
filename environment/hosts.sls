@@ -6,4 +6,4 @@ hosts:
   controller:
     macs:
       - 12:c4:7a:da:0e:44
-      - 34:c4:7a:da:0e:44
+      - 34:34:45:56:67:78
