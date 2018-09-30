@@ -24,7 +24,9 @@ master-config:
   
   gitfs_remotes: |
     gitfs_remotes:
-     - https://github.com/georgiacyber/kinetic.git:
+    {% for remote in pillar['gitfs_remotes'] %}
+     - [remote]:
+    {% endfor %}
         - saltenv:
           - base:
             - ref: master
