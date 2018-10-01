@@ -2,7 +2,7 @@
 
 images:
   ubuntu1604:
-    name: ubuntu1604.qcow2
+    name: xenial-server-cloudimg-amd64-disk1.qcow2
     needs_conversion: true
     remote_url: http://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-amd64-disk1.img
     remote_hash: http://cloud-images.ubuntu.com/xenial/current/SHA256SUMS
