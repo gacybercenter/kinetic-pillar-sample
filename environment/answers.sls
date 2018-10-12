@@ -18,6 +18,19 @@ authorized_keys:
   AAAAC3NzaC1lZDI1NTE5AAAAIIKw+cBx9BBKcoXKLxMLVoGCD7znZqBjnMkaIipAikQJ:
     encoding: ed25519
 
+## Specify your subnets.  The number of addresses for public, private, sfe, sbe, and oob should be
+## equivalent to the number of addresses in management.  The number of addresses in public should be
+## equivalent to or greater than the number of addresses in management.  The management field is for
+## reference only; it is unparsed.
+
+subnets:
+  management: 10.0.1.0/24
+  public: 10.1.0.0/16
+  private: 10.2.0.0/24
+  sfe: 10.3.0.0/24
+  sbe: 10.4.0.0/24
+  oob: 10.5.0.0/24
+
 ## Assorted salt master configuration options.  Each entry will be written to a separate file in /etc/salt/master.d
 ## https://docs.saltstack.com/en/latest/ref/configuration/master.html
 master-config:
