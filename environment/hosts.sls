@@ -16,4 +16,9 @@ hosts:
     proxy: http://cache.kinetic:3142
     root_password_crypted: $6$sSXsfvsKhwy$RrINorhH4lNeNdNbi/vHqCAApM8ID9Lhvmzs6OQMO4791igXZIrhWg6Kyi7XPRGhIZOgGUdCx4prarhaV62id0
     ntp_server: 0.us.pool.ntp.org
-    disk: /dev/sda
+    disk: /dev/sda 
+    kvm_disk_config:
+      type: raid1
+      members:
+        - /dev/loop0
+        - /dev/loop1
