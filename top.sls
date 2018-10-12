@@ -7,3 +7,4 @@ base:
     - environment/images
   'controller*':
     - environment/hosts
+    - environment/images
