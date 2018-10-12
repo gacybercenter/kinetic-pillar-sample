@@ -34,6 +34,6 @@ images:
     remote_url: http://images:8080/images/debian-8-openstack-amd64.raw
     remote_hash: https://cdimage.debian.org/cdimage/openstack/current-8/SHA512SUMS
     remote_source_hash_name: debian-8-openstack-amd64.raw
-    local_url: http://cache/images/debian8.raw
-    local_hash: http://cache/images/checksums
+    local_url: http://cache.kinetic/images/debian8.raw
+    local_hash: http://cache.kinetic/images/checksums
     local_source_hash_name: debian8.raw
