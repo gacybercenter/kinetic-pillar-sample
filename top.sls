@@ -5,5 +5,5 @@ base:
     - environment/hosts
   'cache*':
     - environment/images
-  'controller':
+  'controller*':
     - environment/hosts
