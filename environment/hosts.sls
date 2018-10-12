@@ -18,7 +18,7 @@ hosts:
     ntp_server: 0.us.pool.ntp.org
     disk: /dev/sda 
     kvm_disk_config:
-      type: standard
+      type: raid
       members:
         - /dev/loop0
         - /dev/loop1
