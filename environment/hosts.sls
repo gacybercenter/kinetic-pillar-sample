@@ -22,3 +22,8 @@ hosts:
       members:
         - /dev/loop0
         - /dev/loop1
+    networks:
+      management: enp0s20f0
+      sfe: enp0s20f1
+      private: enp0s20f2
+      public: enp0s20f3
