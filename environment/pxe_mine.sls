@@ -1,3 +1,4 @@
 mine_functions:
-  file.read:
+  pending_hosts:
+    - mine_function: file.read:
     - /var/log/apache2/access.log
