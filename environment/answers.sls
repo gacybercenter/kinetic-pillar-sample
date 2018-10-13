@@ -39,7 +39,14 @@ subnets:
 ## that can reach inside the OOB network is your salt master.
 
 ipmi_password: |
+  -----BEGIN PGP MESSAGE-----
   
+  hF4DZlZ4hHScjHcSAQdAm3+a6ZVhtOTlg5jTa+9Bj9d6IyEzkVebjbtjbi7X+CMw
+  IUUOr9YIcX2Y0Vb+leORHUXEmpB9DLiTRJzZauJ72Zkd9yXKlJsFXtYfDNX9zXRl
+  0k4B06BS2NgITEehUNRvqKsAXMdVoZiBVJEnXIpdSAWa23GsgEHop6MjXy8tKwlC
+  ofwrDxbcM1C7svwquoO87cL/8kXlfJig6NulU9jfssA=
+  =RWLp
+  -----END PGP MESSAGE-----  
 
 ## Assorted salt master configuration options.  Each entry will be written to a separate file in /etc/salt/master.d
 ## https://docs.saltstack.com/en/latest/ref/configuration/master.html
