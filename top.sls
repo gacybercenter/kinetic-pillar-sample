@@ -3,7 +3,7 @@ base:
     - environment/answers
   'pxe':
     - environment/hosts
-  'cache*':
+  'salt*':
     - environment/ipmi_password
   'cache*':
     - environment/images
