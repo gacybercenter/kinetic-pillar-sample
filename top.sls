@@ -4,6 +4,7 @@ base:
   'pxe':
     - environment/hosts
     - environment/pxe_bootstrap_beacon
+    - environment/pxe_mine
   'salt*':
     - environment/ipmi_password
     - environment/hosts
