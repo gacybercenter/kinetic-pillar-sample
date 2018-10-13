@@ -67,3 +67,8 @@ master-config:
 
   top_file_merging_strategy: |
     top_file_merging_strategy: same
+
+  reactor: |
+    reactor: 
+      - salt/beacon/pxe/log/bootstrap/request/event:
+        - salt://reactor/publish_pending_minion_id.sls
