@@ -6,6 +6,7 @@ base:
     - environment/pxe_bootstrap_beacon
   'salt*':
     - environment/ipmi_password
+    - environment/hosts
   'cache*':
     - environment/images
   'controller*':
