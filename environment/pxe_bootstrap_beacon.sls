@@ -1,6 +1,5 @@
 beacons:
   log:
-    - file: /var/log/apache2/access.log
-    - tags: 
-        /bootstrap/request/event/:
-          - regex: 'asdfsdahjfdsjfklds'
+      file: /var/log/apache2/access.log
+      /bootstrap/request/event/:
+          - regex: .*Firefox.*
