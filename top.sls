@@ -9,6 +9,7 @@ base:
     - environment/hosts
   'cache*':
     - environment/images
+    - environment/cache_mine
   'controller*':
     - environment/hosts
     - environment/images
