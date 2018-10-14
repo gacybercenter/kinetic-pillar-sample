@@ -28,10 +28,9 @@ hosts:
     ipmi_addresses:
       - 10.0.1.162
     kvm_disk_config:
-      type: raid1
+      type: standard
       members:
-        - /dev/loop0
-        - /dev/loop1
+        - rootfs
     networks:
       management: enp0s20f0
       sfe: enp0s20f1
