@@ -1,3 +1,9 @@
+## kvm_disk_config
+## type: raidX, where X is 1 or 10.  raid1 must have 2 members entries in the list.  raid10 must have a multiple of 2 members in the list
+## type: standard.  May pass a device (e.g. /dev/sdb) as a single member, or pass the special value 'rootfs' as a single member, which will
+## just create a directory on the root filesystem at /kvm
+
+
 hosts:
   cache:
     macs:
