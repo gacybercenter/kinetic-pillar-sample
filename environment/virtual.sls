@@ -6,7 +6,7 @@ virtual:
     os: ubuntu1804
     disk: 128G
     networks:
+      bridge: false
       bindings:
-        bridge: false
         - management: ens3
         - sfe: ens4
