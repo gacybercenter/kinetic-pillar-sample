@@ -8,6 +8,7 @@ base:
     - environment/ipmi_password
     - environment/hosts
   'cache*':
+    - environment/hosts
     - environment/images
     - environment/cache_mine
   'controller*':
