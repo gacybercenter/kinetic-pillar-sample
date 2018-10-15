@@ -7,6 +7,7 @@ base:
   'salt*':
     - environment/ipmi_password
     - environment/hosts
+    - environment/virtual
   'cache*':
     - environment/hosts
     - environment/images
