@@ -16,6 +16,11 @@ hosts:
     disk: /dev/sda
     ipmi_addresses:
       - 10.0.1.190
+    networks:
+      bridge: false
+      bindings:
+        - management: enp0s20f0
+        - public: enp0s20f1
   controller:
     macs:
       - 0c:c4:7a:da:12:cc 
@@ -32,7 +37,9 @@ hosts:
       members:
         - rootfs
     networks:
-      management: enp0s20f0
-      sfe: enp0s20f1
-      private: enp0s20f2
-      public: enp0s20f3
+      bridge: false
+      bindings:
+        - management: enp0s20f0
+        - sfe: enp0s20f1
+        - private: enp0s20f2
+        - public: enp0s20f3
