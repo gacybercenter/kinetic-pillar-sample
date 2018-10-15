@@ -37,7 +37,7 @@ hosts:
       members:
         - rootfs
     networks:
-      bridge: false
+      bridge: true
       bindings:
         - management: enp0s20f0
         - sfe: enp0s20f1
