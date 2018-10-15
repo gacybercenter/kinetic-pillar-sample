@@ -15,3 +15,5 @@ base:
   'controller*':
     - environment/hosts
     - environment/images
+    - environment/virtual
+
