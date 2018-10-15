@@ -16,4 +16,5 @@ base:
     - environment/hosts
     - environment/images
     - environment/virtual
-
+  'ceph*':
+    - environment/virtual
