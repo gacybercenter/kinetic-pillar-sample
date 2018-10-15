@@ -7,5 +7,6 @@ virtual:
     disk: 128G
     networks:
       bindings:
+        bridge: false
         - management: ens3
         - sfe: ens4
