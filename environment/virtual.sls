@@ -1,8 +1,8 @@
 virtual:
   cephmon:
     count: 3
-    ram: 32768000
-    cpu: 2
+    ram: 4096000
+    cpu: 1
     os: ubuntu1804
     disk: 128G
     networks:
