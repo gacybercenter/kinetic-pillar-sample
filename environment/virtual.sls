@@ -4,7 +4,7 @@ virtual:
     ram: 4096000
     cpu: 1
     os: ubuntu1804
-    disk: 128G
+    disk: 32G
     networks:
       bridge: false
       bindings:
