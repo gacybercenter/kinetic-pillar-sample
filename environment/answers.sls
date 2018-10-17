@@ -18,15 +18,16 @@ authorized_keys:
   AAAAC3NzaC1lZDI1NTE5AAAAIIKw+cBx9BBKcoXKLxMLVoGCD7znZqBjnMkaIipAikQJ:
     encoding: ed25519
 
-## Specify your subnets.  The number of addresses for public, private, sfe, sbe, and oob should be
+## Specify your subnets.  The number of addresses for private, sfe, sbe, and oob should be
 ## equivalent to the number of addresses in management (and management should be at least a /24)
-## The number of addresses in public should be equivalent to or greater than the number of
-## addresses in management.  The management field is for reference only; it is unparsed.  The most
-## tested configuration is a /24 for all networks except public, which gets a /16.
+## The number of addresses in public should be equivalent to the largest amount of instances you
+## could concievably create in your environment plus the number of addresses in management.  For
+## example, if you plan to create 250 hosts, and management is a /24, public should be a /23.  The
+## first /24 in your public subnet will be reserved and inaccessible to your hosts.
 
 subnets:
   management: 10.0.1.0/24
-  public: 10.1.0.0/16
+  public: 10.1.0.0/23
   private: 10.2.0.0/24
   sfe: 10.3.0.0/24
   sbe: 10.4.0.0/24
