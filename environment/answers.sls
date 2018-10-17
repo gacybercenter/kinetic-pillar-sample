@@ -19,9 +19,10 @@ authorized_keys:
     encoding: ed25519
 
 ## Specify your subnets.  The number of addresses for public, private, sfe, sbe, and oob should be
-## equivalent to the number of addresses in management.  The number of addresses in public should be
-## equivalent to or greater than the number of addresses in management.  The management field is for
-## reference only; it is unparsed.
+## equivalent to the number of addresses in management (and management should be at least a /24)
+## The number of addresses in public should be equivalent to or greater than the number of
+## addresses in management.  The management field is for reference only; it is unparsed.  The most
+## tested configuration is a /24 for all networks except public, which gets a /16.
 
 subnets:
   management: 10.0.1.0/24
