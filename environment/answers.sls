@@ -23,14 +23,16 @@ authorized_keys:
 ## The public subnet should be the already-existing network that you will utilize to grant
 ## external access to your instances.  You must choose a single IP address that will be assigned
 ## to your cache for the purpose of providing package caching services to your instances.
-## It is recommended to choose the lowest available address in your public subnet - all addresses
-## higher than the cache address will be assigned to your instances.  All addresses lower than
-## the cache address will be reserved and unavailable.
+## Your start and end addresses are the addresses from your provider network that will be made
+## available to your hosts
 
 subnets:
   management: 10.0.1.0/24
-  public: 10.1.0.0/23
-    gateway: 10.1.1.254
+  public: 
+    network: 10.1.0.0/24
+    start: 10.1.0.2
+    end: 10.1.0.250
+    gateway: 10.1.0.254
     dns: 8.8.8.8
     cache_ip: 10.1.0.1
   private: 10.2.0.0/24
