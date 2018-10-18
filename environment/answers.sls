@@ -20,14 +20,19 @@ authorized_keys:
 
 ## Specify your subnets.  The number of addresses for private, sfe, sbe, and oob should be
 ## equivalent to the number of addresses in management (and management should be at least a /24)
-## The number of addresses in public should be equivalent to the largest amount of instances you
-## could concievably create in your environment plus the number of addresses in management.  For
-## example, if you plan to create 250 hosts, and management is a /24, public should be a /23.  The
-## first /24 in your public subnet will be reserved and inaccessible to your hosts.
+## The public subnet should be the already-existing network that you will utilize to grant
+## external access to your instances.  You must choose a single IP address that will be assigned
+## to your cache for the purpose of providing package caching services to your instances.
+## It is recommended to choose the lowest available address in your public subnet - all addresses
+## higher than the cache address will be assigned to your instances.  All addresses lower than
+## the cache address will be reserved and unavailable.
 
 subnets:
   management: 10.0.1.0/24
   public: 10.1.0.0/23
+    gateway: 10.1.1.254
+    dns: 8.8.8.8
+    cache_ip: 10.1.0.1
   private: 10.2.0.0/24
   sfe: 10.3.0.0/24
   sbe: 10.4.0.0/24
