@@ -31,13 +31,3 @@ images:
     local_hash: pull_from_mine
     local_name: debian9.raw
     local_source_hash_name: debian9.raw
-  debian8:
-    name: debian8.raw
-    needs_conversion: false
-    remote_url: http://images:8080/images/debian-8-openstack-amd64.raw
-    remote_hash: https://cdimage.debian.org/cdimage/openstack/current-8/SHA512SUMS
-    remote_source_hash_name: debian-8-openstack-amd64.raw
-    local_url: pull_from_mine
-    local_hash: pull_from_mine
-    local_name: debian8.raw
-    local_source_hash_name: debian8.raw
