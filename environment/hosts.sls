@@ -9,8 +9,6 @@ hosts:
     macs:
       - 0c:c4:7a:da:0e:44
       - 00:02:c9:56:b8:86
-      - 0c:c4:7a:da:12:cc 
-      - 00:02:c9:56:ad:ec
     interface: auto
     proxy: "''"
     root_password_crypted: $6$sSXsfvsKhwy$RrINorhH4lNeNdNbi/vHqCAApM8ID9Lhvmzs6OQMO4791igXZIrhWg6Kyi7XPRGhIZOgGUdCx4prarhaV62id0
@@ -18,7 +16,6 @@ hosts:
     disk: /dev/sda
     ipmi_addresses:
       - 10.0.1.190
-      - 10.0.1.162
     networks:
       bridge: false
       bindings:
@@ -26,15 +23,19 @@ hosts:
         - public: enp0s20f1
   controller:
     macs:
-      - 0c:c4:7a:da:12:ca 
-      - 00:02:c9:56:ad:ea
+      - 0c:c4:7a:da:12:cc 
+      - 00:02:c9:56:ad:ec
+      - 00:25:90:2d:d6:68
+      - 00:25:90:2d:d6:69
     interface: auto
     proxy: pull_from_mine
     root_password_crypted: $6$sSXsfvsKhwy$RrINorhH4lNeNdNbi/vHqCAApM8ID9Lhvmzs6OQMO4791igXZIrhWg6Kyi7XPRGhIZOgGUdCx4prarhaV62id0
     ntp_server: 0.us.pool.ntp.org
     disk: /dev/sda 
     ipmi_addresses:
-      - 10.0.1.163
+      - 10.0.1.162
+      - 10.0.1.161
+      - 10.0.1.139
     kvm_disk_config:
       type: standard
       members:
