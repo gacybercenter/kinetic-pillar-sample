@@ -26,7 +26,7 @@ hosts:
       - 0c:c4:7a:da:12:cc 
       - 00:02:c9:56:ad:ec
       - 00:25:90:2d:d6:68
-      - 00:25:90:2d:d6:69
+      - 00:25:90:2d:9f:60
     interface: auto
     proxy: pull_from_mine
     root_password_crypted: $6$sSXsfvsKhwy$RrINorhH4lNeNdNbi/vHqCAApM8ID9Lhvmzs6OQMO4791igXZIrhWg6Kyi7XPRGhIZOgGUdCx4prarhaV62id0
