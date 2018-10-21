@@ -6,6 +6,7 @@
 
 hosts:
   cache:
+    role:cache
     macs:
       - 0c:c4:7a:da:0e:44
       - 00:02:c9:56:b8:86
@@ -22,11 +23,10 @@ hosts:
         - management: enp0s20f0
         - public: enp0s20f1
   controller:
+    role: controller
     macs:
       - 0c:c4:7a:da:12:cc 
       - 00:02:c9:56:ad:ec
-      - 00:25:90:2d:d6:68
-      - 00:25:90:2d:9f:60
     interface: auto
     proxy: pull_from_mine
     root_password_crypted: $6$sSXsfvsKhwy$RrINorhH4lNeNdNbi/vHqCAApM8ID9Lhvmzs6OQMO4791igXZIrhWg6Kyi7XPRGhIZOgGUdCx4prarhaV62id0
@@ -34,8 +34,6 @@ hosts:
     disk: /dev/sda 
     ipmi_addresses:
       - 10.0.1.162
-      - 10.0.1.161
-      - 10.0.1.139
     kvm_disk_config:
       type: standard
       members:
@@ -47,3 +45,27 @@ hosts:
         - sfe: enp0s20f1
         - private: enp0s20f2
         - public: enp0s20f3
+  controllerv2:
+    role: controller
+    macs:
+      - 00:25:90:2d:d6:68
+      - 00:25:90:2d:9f:60
+    interface: auto
+    proxy: pull_from_mine
+    root_password_crypted: $6$sSXsfvsKhwy$RrINorhH4lNeNdNbi/vHqCAApM8ID9Lhvmzs6OQMO4791igXZIrhWg6Kyi7XPRGhIZOgGUdCx4prarhaV62id0
+    ntp_server: 0.us.pool.ntp.org
+    disk: /dev/sda
+    ipmi_addresses:
+      - 10.0.1.161
+      - 10.0.1.139
+    kvm_disk_config:
+      type: standard
+      members:
+        - rootfs
+    networks:
+      bridge: true
+      bindings:
+        - management: eno1
+        - sfe: eno2
+        - private: eno3
+        - public: eno4
