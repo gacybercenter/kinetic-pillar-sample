@@ -6,7 +6,7 @@
 
 hosts:
   cache:
-    role:cache
+    role: cache
     macs:
       - 0c:c4:7a:da:0e:44
       - 00:02:c9:56:b8:86
