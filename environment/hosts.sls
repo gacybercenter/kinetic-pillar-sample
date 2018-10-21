@@ -5,6 +5,8 @@
 
 
 hosts:
+  pxe:
+    role: pxe
   cache:
     role: cache
     macs:
