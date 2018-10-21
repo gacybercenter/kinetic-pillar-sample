@@ -8,6 +8,7 @@ base:
     - environment/ipmi_password
     - environment/hosts
     - environment/virtual
+    - environment/hwmap
   'cache*':
     - environment/hosts
     - environment/images
