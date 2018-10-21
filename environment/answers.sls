@@ -79,7 +79,7 @@ master-config:
 
   reactor: |
     reactor: 
-      - salt/beacon/pxe/inotify//var/www/html/pending_hosts:
+      - salt/beacon/pxe/inotify//var/www/html/pending_hosts/*:
         - salt://reactor/publish_pending_minion_id.sls
       - cache/mine/address/update:
         - salt://reactor/highstate_pxe.sls
