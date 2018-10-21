@@ -5,3 +5,4 @@ beacons:
             mask:
               - create
             recurse: true
+            auto_add: true
