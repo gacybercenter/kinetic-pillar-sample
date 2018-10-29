@@ -10,9 +10,9 @@
 ipmi_password: |
   -----BEGIN PGP MESSAGE-----
   
-  hF4D8goHq7/fKWYSAQdAXtMBX/me5fyWrLiMZI1QkcdnkH+ImXRqlI19JtgXgzow
-  cinvQE9oiyLqayrZAiESei2RMnriOvILg0yyIrKGFYia+nj59ysoS3vwnV/w6kOL
-  0k4BFEA42XLGRTqJzjH5NMxwNMHLy3Ozb+G1GOIBQSbMsVocokzl7uoaOnzGLRzf
-  LlsHHwLn/US90DK1bIscplTbQv9TGPObn6Wk4QfNGq4=
-  =FRJ1
+  hF4D7HmUMU1FdPcSAQdA6+2UA6vzdrdVt6MIZAw3sTf9kPmLlFJrPuQ24zmPNCww
+  PA1Mo5wDVA7Q039CvoAhtxWpSmbQGQOQD1FbxV/ub6f6DGN+CD92bE+vB6RAiGug
+  0k4B9NXxNaKwB54F7AvlUH+L9HMal/s8XQOosJWLW/m5hV+MkFcWOjzuRmZzeEpR
+  yBjet560ev+bNImcbSoQPzp2rnGP7M/YKULvI/SrSLI=
+  =Xcr3
   -----END PGP MESSAGE-----
